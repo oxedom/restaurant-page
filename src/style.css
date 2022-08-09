@@ -29,6 +29,12 @@ body {
     align-content: center;
 }
 
+.testDiv {
+    padding: 250px;
+    background-color: green;
+}
+
+
 .nav-bar { 
     background-color: var(--color1);
     padding: 10px;
