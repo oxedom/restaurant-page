@@ -21,7 +21,7 @@ let dom = function () {
     homeBtn.innerText = 'Home'
     menuBtn.innerText = 'Menu'
     contactBtn.innerText = 'Contact'
-    //Giving Btns ID's from 1-3, Class of nav-btn and BindingHandleClick
+    //Giving Btns ID's from 1-3, Class of nav-btn and BindingHandleClick with for loop
 
     for (let index = 0; index < 3; index++) {
         arrOfBtns[index].setAttribute('id', index + 1)
@@ -34,11 +34,8 @@ let dom = function () {
     let main = document.createElement('main')
     //Creation of Footer;
     let footer = document.createElement('footer')
-    let spanOne = document.createElement('span')
-    let spanTwo = document.createElement('span')
-    let spanThree = document.createElement('span')
-    footer.append(spanOne, spanTwo, spanThree)
-    footer.classList.add('footer', 'centerFlex')
+
+    footer.classList.add('footer')
 
     //Appending Default Content to index file 
     header.append(nav)
@@ -69,7 +66,6 @@ let dom = function () {
             main.append(menuPage)
                 ;
         };
-
 
         //If Home Contact clicked
         if (parseInt(e.target.id) === 3) {

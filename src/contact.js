@@ -12,14 +12,15 @@ export default function contact() {
   header.append(h2)
   header.classList.add('centerFlex', 'header')
 
-  //
+  //Form with input btn and H3
   const form = document.createElement('form')
   const input = document.createElement('textarea')
   const btn = document.createElement('button')
   const h3 = document.createElement('h3')
   h3.innerText = "07-7776694"
-  h3.style = 'text-align: center'
 
+  //Quick styling 
+  h3.style = 'text-align: center'
   input.setAttribute('placeholder', 'Your Complaint here...')
   btn.innerText = 'Send me'
   form.append(h3, input, btn)
