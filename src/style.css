@@ -12,7 +12,7 @@ body {
 }
 .table {
     background-color: var(--color2);
-    border: #080a0a solid 1px;
+    border: var(--color4) solid 10px;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -26,10 +26,10 @@ body {
 }
 
 .home-section > * {
-    background-color: var(--color3);
+    background-color: var(--color2);
     border-radius: 75px;
     padding: 1.5%;
-    
+    border: var(--color4) solid 10px;
 
     text-align: center;
 }
