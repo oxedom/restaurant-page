@@ -2,9 +2,22 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--color7);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.table {
+    background-color: var(--color2);
+    border: #080a0a solid 1px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .home-section{
     flex-direction: column;
     justify-content: center;
@@ -52,6 +65,9 @@ body {
 
 }
 
+.header {
+    font-size: 24px;
+}
 .centerFlex {
     display: flex;
     justify-content: center;
@@ -71,6 +87,7 @@ body {
 }
 
 .nav-btn { 
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color2);
     padding: 15px;
     border-radius: 15px
@@ -88,4 +105,8 @@ body {
     gap: 100px;
     padding: 15px;
     background-color: var(--color1);
+}
+
+#content > main > div > section > article:nth-child(3) {
+    margin-bottom: 20px;
 }
