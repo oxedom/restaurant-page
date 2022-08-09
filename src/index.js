@@ -1,7 +1,7 @@
 import './style.css';
 import home from './home'
 import menu from './home'
-import contact from './home'
+import contact from './contact'
 
 
 let dom = function() {
