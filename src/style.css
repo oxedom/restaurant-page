@@ -12,6 +12,11 @@ body {
     justify-content: space-between;
 }
 
+#content main {
+    flex-grow: 1;
+
+}
+
 :root {
     --color1: #384a4a; 
     --color2: #c9d087;

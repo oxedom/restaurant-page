@@ -9,8 +9,10 @@ export default function home() {
     const article_hours =  document.createElement('article')
     const article_location = document.createElement('article')
 
-    content.innerText = 'we got mail'
-    content.append(mainContainer,header)
+    const h1 = document.createElement('h1')
+    h1.innerText = "Welcome to Sam's hummus"
+    header.append(h1)
+    content.append(header)
 
 
     console.log('I get called from home.js!');
