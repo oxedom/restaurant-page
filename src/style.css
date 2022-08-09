@@ -2,14 +2,43 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--color7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.home-section{
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.home-section > * {
+    background-color: var(--color3);
+    border-radius: 75px;
+    padding: 1.5%;
+    
+
+    text-align: center;
+}
+
+#content > main > div > section > article:nth-child(1) > img {
+    width: 200px;
+    border-radius: 65px;
+    border: var(--color6) solid 3px;
+;
+}
 
 #content {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+
+#content main {
+    flex-grow: 1;
+    width: 100%;
 }
 
 :root {

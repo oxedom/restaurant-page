@@ -1,7 +1,7 @@
 import './style.css';
 import home from './home'
 import menu from './home'
-import contact from './home'
+import contact from './contact'
 
 
 let dom = function() {
@@ -49,10 +49,9 @@ let dom = function() {
     //Still need to create contactPage and MenuPage !!
     const homePage = home()
     const logic = { selectedPage: homePage}
-    
-   
+        
     //HandleClick 
-    function handleClick(e, selectedPage){
+    function handleClick(e){
         //Removes the Page element before appending new page to dom
         logic.selectedPage.remove()
 
@@ -71,5 +70,8 @@ let dom = function() {
        if(parseInt(e.target.id) === 3) 
        { console.log('Contact');};
     }
-    
+    //Init for homepage
+    handleClick({target: {id: 1}})
 }()
+
+
