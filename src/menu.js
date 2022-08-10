@@ -19,7 +19,7 @@ export default function menu() {
     //ITEM STRINGS
     const item1 = 'Sweet Cream - Hummus and IceCream | 55'
     const item2 = 'Pain by farts - Hummus and ten boiled eggs | 49'
-    const item3 = 'Pain by farts - Hummus and ten boiled eggs | 49'
+    const item3 = `a dog's lunch - Six chicken bones with hummus | 49`
 
     //ITEM 1 Table row and TD
     const tr1 = document.createElement('tr')
